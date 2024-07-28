@@ -6,7 +6,7 @@ import products from "../data.js";
 const HomePage = () => {
     return(
         <>
-        <h1>Latest Products</h1>
+        <h1>Latest Products after vite localhost success  "dev": "vite --host"</h1>
         <Row>
           {
             products.map(product => (
